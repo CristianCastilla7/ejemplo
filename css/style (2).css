@@ -26,8 +26,14 @@
 		top: 179px;
 		left: 771px;
 				}
-				
-		
+				#apDiv4 {
+		position: absolute;
+		width: 123px;
+		height: 34px;
+		z-index: 1;
+		left: 679px;
+		top: 185px;
+				}
 				#apDiv5 {
 		position: absolute;
 		width: 280px;
@@ -123,14 +129,22 @@
 		bottom: -1px;
 	}
 			#apDiv13 {
+		position: absolute;
 		width: 225px;
 		height: 41px;
 		z-index: 2;
-		margin-right: 0px;
-		display: block;
-		float: left;
+		left: 64px;
+		top: 982px;
 	}
-		
+			#apDiv14 {
+		position: absolute;
+		width: 98px;
+		height: 68px;
+		z-index: 3;
+		left: 320px;
+		top: 22px;
+		border-radius: 0px 0px 0px 0px;
+	}
 			#apDiv15 {
 		position: absolute;
 		width: 260px;
@@ -221,26 +235,34 @@
 		border-top-color: #006680;
 	}
 			#apDiv25 {
-		width: 690px;
+		position: absolute;
+		width: 360px;
 		height: 30px;
 		z-index: 10;
+		left: 436px;
+		top: 980px;
 		font-size: 12px;
 		color: #FFF;
-		text-align: center;
 	}
 			#apDiv26 {
+		position: absolute;
 		width: 576px;
 		height: 26px;
 		z-index: 11;
+		left: 328px;
+		top: 996px;
 		font-size: 12px;
 		color: #FFF;
 	}
 			#apDiv27 {
+		position: absolute;
 		width: 200px;
 		height: 31px;
 		z-index: 12;
 		font-size: 12px;
 		color: #FFF;
+		left: 516px;
+		top: 1012px;
 	}
 	#contenidos{
 		width: 1000px;
@@ -254,7 +276,7 @@
 
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #DBDCE1  ;
+	background-color: #666;
 	}
 	h1{
 		font-family: Arial, Helvetica, sans-serif;
@@ -284,8 +306,8 @@
 		background: rgba(255, 255, 255, 10,70);
 	}
 	nav{
-		width: 170px;
-		height: 280px;
+		width: 1000px;
+		height: 65px;
 		background: #0176af;
 		background: linear-gradient(top, #0176af 0%, #003f5e 100%);  
 		background: -moz-linear-gradient(top, #0176af 0%, #003f5e 100%); 
@@ -367,14 +389,12 @@ nav ul ul {
 				}
 
 	section{
-		width: 780px;
+		width: 713px;
 		background: white;
 		height: 720px;
-		float: right;
+		float: left;
 		margin-top: 7px;
-		border-radius: 10px 10px 10px 10px;
-		display: block;
-		float: right;
+		border-radius: 10px 0px 0px 0px;
 	}
 	aside{
 		width: 280px;
@@ -395,8 +415,6 @@ nav ul ul {
 		margin-bottom: 20px;
 		font-size: 12px;
 		text-align: left;
-		padding-left: 10px;
-		padding-top: 20px;
 	}
 	p{
 
@@ -433,44 +451,3 @@ nav ul ul {
 		font-weight: normal;
 		color: #333;
 	}
-	
-	.menu{
-		width:115px;
-		margin-top: 5px;
-		margin-bottom: 5px;
-	}
-
-	#nav{
-		margin-right: 0px;
-		width: 210px;
-		display: block;
-		float: left;
-		margin-top: 7px;
-		border-radius: 10px 10px 0px 0px;
-
-	}
-
-	#apDiv4 {
-		width: 210px;
-		height: 442px;	
-		float: left;	
-		background: #003f5e;
-		border-radius: 0px 0px 10px 10px;
-		color: #006680;
-	}
-
-	#footerInterno{
-		width: 700px;
-		display: block;
-		float: right;
-	}
-
-	#nuestraUnad{
-		color: white;	
-	}
-	#cuentavisitas{
-		color: white;
-	}
-
-
-	
